@@ -1,0 +1,3 @@
+#!/bin/sh
+# WARNING: This file was auto-generated. Do not edit!
+exec cc -O2 -pipe -I/usr/local/include -L/usr/local/lib -DTLS=20160918 -DFD_SETSIZE=1024 -fstack-protector-strong -fno-strict-aliasing  -lpq -c ${1+"$@"}

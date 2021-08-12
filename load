@@ -1,0 +1,4 @@
+#!/bin/sh
+# WARNING: This file was auto-generated. Do not edit!
+main="$1"; shift
+exec cc -s -Wl,-rpath,/usr/local/lib -fstack-protector-strong  -I/usr/local/include -L/usr/local/lib -lpq -o "$main" "$main".o ${1+"$@"}
